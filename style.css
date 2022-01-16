@@ -1,0 +1,18 @@
+.text-container {
+    font-family: 'Crimson Pro', serif;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.text-container:hover {
+    background: -webkit-linear-gradient(#d8d8d8, #1b00b1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-decoration: underline 1px #15008a;
+            text-decoration: underline 1px #15008a;
+    font-weight: bold;
+}
+
+.invisible-text {
+    visibility: hidden;
+}
